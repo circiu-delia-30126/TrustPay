@@ -1,19 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace TrustPay.Models;
 
 public partial class DbTrustPayContext : DbContext
 {
+    private readonly IConfiguration _configuration;
     public DbTrustPayContext()
     {
     }
 
-    public DbTrustPayContext(DbContextOptions<DbTrustPayContext> options)
-        : base(options)
+    public DbTrustPayContext(DbContextOptions<DbTrustPayContext> options, IConfiguration configuration)
+           : base(options)
     {
+        _configuration = configuration;
     }
+
+    
 
     public virtual DbSet<Account> Accounts { get; set; }
 
@@ -22,9 +28,9 @@ public partial class DbTrustPayContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=DESKTOP-ICVVQ4H;Database=db_TrustPay;Trusted_Connection=True;TrustServerCertificate=True;");
-
+    {
+        optionsBuilder.UseSqlServer(_configuration.GetConnectionString("DefaultConnection"));
+    }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Account>(entity =>
@@ -93,4 +99,15 @@ public partial class DbTrustPayContext : DbContext
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+    public async Task InsertUser(string userName,string password,string email, DateTime createAt)
+    {
+        await Database.ExecuteSqlRawAsync(
+            "EXEC InsertUser @UserName = {0}, @Password = {1},@Email={2},@CreatedAt={3}",
+
+            userName,
+            password,
+            email,
+            createAt);
+    }
 }

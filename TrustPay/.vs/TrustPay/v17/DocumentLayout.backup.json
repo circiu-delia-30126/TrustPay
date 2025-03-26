@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|c:\\users\\hp\\documents\\semestru 2\\ii\\trustpay\\trustpay\\trustpay.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|solutionrelative:trustpay\\trustpay.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|c:\\users\\hp\\documents\\semestru 2\\ii\\trustpay\\trustpay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|solutionrelative:trustpay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|c:\\users\\hp\\documents\\semestru 2\\ii\\trustpay\\trustpay\\models\\dbtrustpaycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|solutionrelative:trustpay\\models\\dbtrustpaycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|c:\\users\\hp\\documents\\semestru 2\\ii\\trustpay\\trustpay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|solutionrelative:trustpay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|c:\\users\\hp\\documents\\semestru 2\\ii\\trustpay\\trustpay\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|solutionrelative:trustpay\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|c:\\users\\hp\\documents\\semestru 2\\ii\\trustpay\\trustpay\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|solutionrelative:trustpay\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TrustPay",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\TrustPay.csproj",
-              "RelativeDocumentMoniker": "TrustPay\\TrustPay.csproj",
-              "ToolTip": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\TrustPay.csproj*",
-              "RelativeToolTip": "TrustPay\\TrustPay.csproj*",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\Program.cs",
+              "RelativeDocumentMoniker": "TrustPay\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\Program.cs",
+              "RelativeToolTip": "TrustPay\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T20:54:41.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\appsettings.json",
+              "RelativeDocumentMoniker": "TrustPay\\appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\appsettings.json",
+              "RelativeToolTip": "TrustPay\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-26T20:49:56.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TrustPay\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TrustPay\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-26T14:04:56.376Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T20:43:38.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TrustPay\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TrustPay\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T20:36:08.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbTrustPayContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\Models\\DbTrustPayContext.cs",
+              "RelativeDocumentMoniker": "TrustPay\\Models\\DbTrustPayContext.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\Models\\DbTrustPayContext.cs",
+              "RelativeToolTip": "TrustPay\\Models\\DbTrustPayContext.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAUwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T14:53:51.603Z",
               "EditorCaption": ""
             }
           ]
