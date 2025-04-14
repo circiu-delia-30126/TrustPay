@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|c:\\users\\hp\\documents\\semestru 2\\ii\\proiect\\trustpay\\trustpay\\views\\accounts\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|solutionrelative:trustpay\\views\\accounts\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|c:\\users\\hp\\documents\\semestru 2\\ii\\proiect\\trustpay\\trustpay\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|solutionrelative:trustpay\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|c:\\users\\hp\\documents\\semestru 2\\ii\\proiect\\trustpay\\trustpay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|solutionrelative:trustpay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|c:\\users\\hp\\documents\\semestru 2\\ii\\proiect\\trustpay\\trustpay\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|solutionrelative:trustpay\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|c:\\users\\hp\\documents\\semestru 2\\ii\\proiect\\trustpay\\trustpay\\models\\domain\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6597F44C-F7C5-4704-91AB-14BA3CB57885}|TrustPay\\TrustPay.csproj|solutionrelative:trustpay\\models\\domain\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +35,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\Views\\Accounts\\Add.cshtml",
+              "RelativeDocumentMoniker": "TrustPay\\Views\\Accounts\\Add.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\Views\\Accounts\\Add.cshtml",
+              "RelativeToolTip": "TrustPay\\Views\\Accounts\\Add.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T10:16:15.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TrustPay\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TrustPay\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T10:10:13.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\Models\\Domain\\Account.cs",
+              "RelativeDocumentMoniker": "TrustPay\\Models\\Domain\\Account.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\Models\\Domain\\Account.cs",
+              "RelativeToolTip": "TrustPay\\Models\\Domain\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T10:02:19.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TrustPay\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TrustPay\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:54:31.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\Program.cs",
               "RelativeDocumentMoniker": "TrustPay\\Program.cs",
               "ToolTip": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\Program.cs",
               "RelativeToolTip": "TrustPay\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T08:33:07.107Z",
               "EditorCaption": ""

@@ -22,4 +22,5 @@ public partial class Account
     public virtual ICollection<Transaction> TransactionToAccounts { get; set; } = new List<Transaction>();
 
     public virtual User? User { get; set; }
+
 }
