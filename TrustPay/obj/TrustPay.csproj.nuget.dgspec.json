@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\TrustPay.csproj": {}
+    "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\TrustPay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\TrustPay.csproj": {
+    "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\TrustPay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\TrustPay.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\TrustPay.csproj",
         "projectName": "TrustPay",
-        "projectPath": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\TrustPay.csproj",
+        "projectPath": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\TrustPay.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Documents\\semestru 2\\II\\TrustPay\\TrustPay\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Documents\\semestru 2\\II\\Proiect\\TrustPay\\TrustPay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
