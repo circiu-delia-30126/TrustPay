@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\II\\Proiect\\TrustPay_CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E2DD22-5529-454A-8D72-9C62CACD30CB}|TrustPay_CRUD\\TrustPay_CRUD.csproj|d:\\ii\\proiect\\trustpay_crud\\trustpay_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E2DD22-5529-454A-8D72-9C62CACD30CB}|TrustPay_CRUD\\TrustPay_CRUD.csproj|solutionrelative:trustpay_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E2DD22-5529-454A-8D72-9C62CACD30CB}|TrustPay_CRUD\\TrustPay_CRUD.csproj|D:\\II\\Proiect\\TrustPay_CRUD\\trustpay_crud\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E2DD22-5529-454A-8D72-9C62CACD30CB}|TrustPay_CRUD\\TrustPay_CRUD.csproj|solutionrelative:trustpay_crud\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E2DD22-5529-454A-8D72-9C62CACD30CB}|TrustPay_CRUD\\TrustPay_CRUD.csproj|D:\\II\\Proiect\\TrustPay_CRUD\\trustpay_crud\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{D1E2DD22-5529-454A-8D72-9C62CACD30CB}|TrustPay_CRUD\\TrustPay_CRUD.csproj|solutionrelative:trustpay_crud\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 269,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "D:\\II\\Proiect\\TrustPay_CRUD\\TrustPay_CRUD\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "TrustPay_CRUD\\Model1.Context.cs",
+              "ToolTip": "D:\\II\\Proiect\\TrustPay_CRUD\\TrustPay_CRUD\\Model1.Context.cs",
+              "RelativeToolTip": "TrustPay_CRUD\\Model1.Context.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:18:03.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\II\\Proiect\\TrustPay_CRUD\\TrustPay_CRUD\\Model1.edmx",
+              "RelativeDocumentMoniker": "TrustPay_CRUD\\Model1.edmx",
+              "ToolTip": "D:\\II\\Proiect\\TrustPay_CRUD\\TrustPay_CRUD\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "TrustPay_CRUD\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-04-13T19:15:54.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\II\\Proiect\\TrustPay_CRUD\\TrustPay_CRUD\\Program.cs",
+              "RelativeDocumentMoniker": "TrustPay_CRUD\\Program.cs",
+              "ToolTip": "D:\\II\\Proiect\\TrustPay_CRUD\\TrustPay_CRUD\\Program.cs",
+              "RelativeToolTip": "TrustPay_CRUD\\Program.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAUwKoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:14:18.028Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 131,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

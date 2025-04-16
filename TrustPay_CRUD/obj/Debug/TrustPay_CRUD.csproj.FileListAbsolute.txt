@@ -1,0 +1,12 @@
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\obj\Debug\TrustPay_CRUD.csproj.AssemblyReference.cache
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\obj\Debug\TrustPay_CRUD.csproj.CoreCompileInputs.cache
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\bin\Debug\TrustPay_CRUD.exe.config
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\bin\Debug\TrustPay_CRUD.exe
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\bin\Debug\TrustPay_CRUD.pdb
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\bin\Debug\EntityFramework.dll
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\bin\Debug\EntityFramework.SqlServer.dll
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\bin\Debug\EntityFramework.xml
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\bin\Debug\EntityFramework.SqlServer.xml
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\obj\Debug\TrustPay.6B9837FB.Up2Date
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\obj\Debug\TrustPay_CRUD.exe
+D:\II\Proiect\TrustPay_CRUD\TrustPay_CRUD\obj\Debug\TrustPay_CRUD.pdb
