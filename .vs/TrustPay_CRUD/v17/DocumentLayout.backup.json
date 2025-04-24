@@ -59,7 +59,7 @@
               "RelativeDocumentMoniker": "TrustPay_CRUD\\Program.cs",
               "ToolTip": "D:\\II\\Proiect\\TrustPay_CRUD\\TrustPay_CRUD\\Program.cs",
               "RelativeToolTip": "TrustPay_CRUD\\Program.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAUwKoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T19:14:18.028Z",
               "EditorCaption": ""
@@ -70,14 +70,6 @@
           "DockedHeight": 131,
           "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
