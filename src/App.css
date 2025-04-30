@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.header {
+  background-color: #00796b;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #00796b;
+}
+
+.login-container h1 {
+  color: white;
+}
+
+.login-container h2 {
+  color: #f4f4f9;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-container button {
+  padding: 10px;
+  background-color: #004d40;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #00796b;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.tabs button {
+  padding: 10px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background-color: #004d40;
+}
+
+.tabs button:hover {
+  background-color: #004d40;
+}
+
+.tab-content {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.current-tab, .savings-tab, .investments-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d40;
+}
