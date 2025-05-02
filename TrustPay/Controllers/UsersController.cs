@@ -21,6 +21,27 @@ namespace TrustPay.Controllers
             _context = context;
         }
 
+        [HttpPost("login")]
+        public async Task<ActionResult<User>> Login([FromBody] User loginData)
+        {
+            // Aici verifici UserName, Email și Password
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.UserName == loginData.UserName && u.Password == loginData.Password);
+
+            if (user == null)
+            {
+                return Unauthorized("Invalid username or password");
+            }
+
+            return Ok(new
+            {
+                user.UserId,
+                user.UserName,  // Poți returna UserName, Email etc.
+                Message = "Login successful"
+            });
+        }
+ 
+
         // GET: api/Users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
