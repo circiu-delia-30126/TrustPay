@@ -47,53 +47,6 @@
   },
   {
     "ContainingType": "TrustPay.Controllers.AccountsController",
-    "Method": "GetAccount",
-    "RelativePath": "api/Accounts/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "TrustPay.Models.Account",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "TrustPay.Controllers.AccountsController",
-    "Method": "PutAccount",
-    "RelativePath": "api/Accounts/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "account",
-        "Type": "TrustPay.Models.Account",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TrustPay.Controllers.AccountsController",
     "Method": "DeleteAccount",
     "RelativePath": "api/Accounts/{id}",
     "HttpMethod": "DELETE",
@@ -107,6 +60,58 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrustPay.Controllers.AccountsController",
+    "Method": "GetAccountsByUser",
+    "RelativePath": "api/Accounts/by-user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TrustPay.Models.Account, TrustPay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TrustPay.Controllers.AccountsController",
+    "Method": "GetUserAccounts",
+    "RelativePath": "api/Accounts/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TrustPay.Models.Account, TrustPay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TrustPay.Controllers.TransactionsController",
@@ -216,6 +221,23 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrustPay.Controllers.TransactionsController",
+    "Method": "AddFunds",
+    "RelativePath": "api/Transactions/addFunds",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transaction",
+        "Type": "TrustPay.Models.Transaction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AddFundsToAccount"
   },
   {
     "ContainingType": "TrustPay.Controllers.UsersController",
@@ -351,6 +373,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "TrustPay.Controllers.UsersController",
+    "Method": "GetUserAccounts",
+    "RelativePath": "api/Users/user/{userId}/accounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "TrustPay.Controllers.WeatherForecastController",

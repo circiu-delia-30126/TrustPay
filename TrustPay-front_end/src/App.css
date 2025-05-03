@@ -105,3 +105,219 @@ button {
 button:hover {
   background-color: #004d40;
 }
+.header {
+  background-color: #00796b;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.header-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.username {
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+.header {
+  background-color: #00796b;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.header-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.username {
+  font-size: 0.9rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tabs button.active {
+  background: #00796b;
+  color: white;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+  margin: 0 auto;
+}
+.message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.app-container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  background-color: #2d89e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tabs button.active {
+  background-color: #1d5e99;
+}
+
+.account-tab {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.account-tab h3 {
+  margin: 0 0 10px 0;
+}
+
+.add-funds-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.add-funds-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-funds-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-add, .btn-cancel {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-add {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-add:hover {
+  background-color: #218838;
+}
+
+.btn-cancel {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-cancel:hover {
+  background-color: #c82333;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.message.info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

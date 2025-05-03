@@ -10,8 +10,8 @@ using TrustPay.Models;
 
 namespace TrustPay.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class TransactionsController : ControllerBase
     {
         private readonly DbTrustPayContext _context;
@@ -41,6 +41,38 @@ namespace TrustPay.Controllers
 
             return transaction;
         }
+
+        [HttpPost("addFunds", Name = "AddFundsToAccount")]
+        public async Task<IActionResult> AddFunds([FromBody] Transaction transaction)
+        {
+            try
+            {
+                var fromAccount = await _context.Accounts.FindAsync(transaction.FromAccountId);
+                var toAccount = await _context.Accounts.FindAsync(transaction.ToAccountId);
+
+                if (fromAccount == null || toAccount == null)
+                    return BadRequest("Account not found.");
+
+                toAccount.Balance += transaction.Amount;
+
+                transaction.TransactionDate = DateTime.UtcNow;
+                transaction.TransactionType = "Deposit";
+
+                _context.Transactions.Add(transaction);
+                await _context.SaveChangesAsync();
+
+                return Ok("Funds added successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error adding funds: {ex.Message}");
+            }
+        }
+
+
+
+
+
 
         // PUT: api/Transactions/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

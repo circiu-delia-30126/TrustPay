@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './App.css';
+
 
 async function loginUser(userName, email, password) {
   try {
     const response = await fetch('https://localhost:7157/api/Users/login', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ userName, email, password }),
     });
 
@@ -17,33 +17,32 @@ async function loginUser(userName, email, password) {
     }
 
     const data = await response.json();
-    console.log('Login successful:', data);
     return data;
   } catch (err) {
-    console.error('Login failed:', err.message);
     throw err;
   }
 }
 
-function LoginForm() {
+function LoginForm({ onLogin }) {
   const [userName, setUserName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState(null);
-
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     try {
       const data = await loginUser(userName, email, password);
-      setMessage(data.message || 'Login successful!');
-
-      // Redirecționează către dashboard dacă login reușit
-      navigate('/dashboard');
+      if (data.message === "Login successful") {
+        setMessage(data.message);
+        onLogin({ userId: data.userId, userName: data.userName }); // salvăm întregul obiect
+        navigate('/dashboard');
+      } else {
+        setMessage("Login failed: " + data.message);
+      }
     } catch (error) {
-      setMessage(`Login failed: ${error.message}`);
+      setMessage("Login failed: " + error.message);
     }
   };
 
@@ -51,7 +50,7 @@ function LoginForm() {
     <div className="login-container">
       <h1>TrustPay</h1>
       <h2>Enter your account</h2>
-      <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <form onSubmit={handleSubmit} className="login-form">
         <input
           type="text"
           placeholder="Username"

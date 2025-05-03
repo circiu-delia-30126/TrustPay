@@ -28,56 +28,55 @@ namespace TrustPay.Controllers
             return await _context.Accounts.ToListAsync();
         }
 
-        // GET: api/Accounts/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Account>> GetAccount(int id)
+        // GET: api/Accounts/user/5
+        // Returnează conturile unui utilizator
+        [HttpGet("user/{userId}")]
+        public async Task<ActionResult<IEnumerable<Account>>> GetUserAccounts(int userId)
         {
-            var account = await _context.Accounts.FindAsync(id);
+            var accounts = await _context.Accounts.Where(a => a.UserId == userId).ToListAsync();
 
-            if (account == null)
+            if (accounts == null || !accounts.Any())
             {
-                return NotFound();
+                return NotFound("Nu există conturi pentru acest utilizator.");
             }
 
-            return account;
+            return accounts;
         }
 
-        // PUT: api/Accounts/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutAccount(int id, Account account)
+        [HttpGet("by-user/{userId}")]
+        public async Task<ActionResult<IEnumerable<Account>>> GetAccountsByUser(int userId)
         {
-            if (id != account.AccountId)
-            {
-                return BadRequest();
-            }
+            var accounts = await _context.Accounts
+                .Where(a => a.UserId == userId)
+                .ToListAsync();
 
-            _context.Entry(account).State = EntityState.Modified;
+            if (!accounts.Any())
+                return NotFound("No accounts found for this user.");
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!AccountExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+            return Ok(accounts);
         }
 
         // POST: api/Accounts
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        // Adaugă un cont pentru un utilizator
         [HttpPost]
-        public async Task<ActionResult<Account>> PostAccount(Account account)
+        public async Task<ActionResult<Account>> PostAccount([FromBody] Account account)
         {
+            // Verificăm dacă utilizatorul există
+            if (account.UserId == null)
+            {
+                return BadRequest("UserId este obligatoriu.");
+            }
+
+            var user = await _context.Users.FindAsync(account.UserId);
+            if (user == null)
+            {
+                return NotFound("Utilizatorul nu a fost găsit.");
+            }
+
+            // Setăm câmpurile suplimentare (dacă nu sunt deja setate)
+            account.CreatedAt = DateTime.UtcNow;
+
+            // Adăugăm contul în baza de date
             _context.Accounts.Add(account);
             await _context.SaveChangesAsync();
 

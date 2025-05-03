@@ -29,17 +29,27 @@ namespace TrustPay.Controllers
 
             if (user == null)
             {
-                return Unauthorized("Invalid username or password");
+                return Unauthorized(new { message = "Invalid username or password" });
             }
 
             return Ok(new
             {
                 user.UserId,
-                user.UserName, 
+                user.UserName,
+                user.Email,
                 Message = "Login successful"
             });
         }
- 
+        [HttpGet("user/{userId}/accounts")]
+        public async Task<IActionResult> GetUserAccounts(int userId)
+        {
+            var accounts = await _context.Accounts
+                .Where(a => a.UserId == userId)
+                .ToListAsync();
+
+            return Ok(accounts);
+        }
+
 
         // GET: api/Users
         [HttpGet]
